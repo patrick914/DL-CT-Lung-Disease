@@ -1,7 +1,6 @@
 # 🩺 CT 이미지 기반 폐 질환 분류 딥러닝 프로젝트
 
 이 프로젝트는 흉부 CT 이미지 데이터를 활용해 딥러닝 모델로 **COVID-19**와 **폐암**을 자동으로 분류하는 것을 목표로 합니다.  
-Transfer Learning(VGG16)과 커스텀 CNN 모델을 비교하며, 의료 영상 기반 AI 모델의 가능성을 탐구합니다.
 
 ---
 
@@ -33,26 +32,13 @@ DL-CT-Lung-Disease/
 - [AI Hub - COVID-19 CT 이미지](https://aihub.or.kr/)
 - [Cancer Imaging Archive - 폐암 CT](https://www.cancerimagingarchive.net/)
 
-> ⚠️ **데이터 용량 문제로 GitHub에는 직접 포함하지 않았습니다.**  
-> 대신 위 링크를 통해 다운로드 가능합니다.
-
 ---
 
-## 📈 결과 예시
+## 📈 결과
 
 - 높은 정확도 및 AUC로 COVID/폐암 예측 가능
 - Grad-CAM으로 CT 이미지에서 질병 영역 시각화
 - 전이학습(VGG16) 모델이 커스텀 CNN보다 성능 우수
-
----
-
-## 🧪 실행 방법
-
-```bash
-pip install -r requirements.txt
-jupyter notebook
-# notebooks 폴더의 .ipynb 파일을 열어 실행
-```
 
 ---
 
@@ -67,4 +53,4 @@ jupyter notebook
 ## 🙋‍♂️ 개발자
 
 - 강종현  
-- Contact: (이메일 또는 GitHub 링크 추가 가능)
+
