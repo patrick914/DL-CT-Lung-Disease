@@ -10,7 +10,7 @@
 DL-CT-Lung-Disease/
 ├── data/                  # 데이터 설명 및 출처
 ├── notebooks/             # 분석 코드 (Jupyter Notebooks)
-├── results/               # 예측 결과 이미지 (예: Grad-CAM, Confusion Matrix)
+├── results/               # 예측 결과 이미지 (Confusion Matrix)
 ├── README.md              # 프로젝트 설명 파일
 └── requirements.txt       # 필요한 Python 패키지
 ```
